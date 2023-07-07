@@ -11,5 +11,5 @@ php telegram.php
 ## Create phar
 
 ```bash
-php create-phar.php
+php --define phar.readonly=0 create-phar.php
 ```
